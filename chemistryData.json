@@ -1,0 +1,301 @@
+{
+    "questions": [
+      {
+        "year": 2000,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "The bond angle in water is approximately:",
+          "options": {
+            "option1": "104.5°",
+            "option2": "120°",
+            "option3": "109.5°",
+            "option4": "90°"
+          },
+          "correctAnswer": "option1"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which gas is evolved during the reaction of acid with metal?",
+          "options": {
+            "option1": "Hydrogen",
+            "option2": "Oxygen",
+            "option3": "Nitrogen",
+            "option4": "Carbon dioxide"
+          },
+          "correctAnswer": "option1"
+        },
+        "q3": {
+          "id": 3,
+          "question": "The pH of a neutral solution is:",
+          "options": {
+            "option1": "7",
+            "option2": "1",
+            "option3": "14",
+            "option4": "0"
+          },
+          "correctAnswer": "option1"
+        }
+      },
+      {
+        "year": 2002,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "What is the common name of NaCl?",
+          "options": {
+            "option1": "Baking soda",
+            "option2": "Table salt",
+            "option3": "Washing soda",
+            "option4": "Bleaching powder"
+          },
+          "correctAnswer": "option2"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which element is found in all organic compounds?",
+      "options": {
+        "option1": "Hydrogen",
+        "option2": "Oxygen",
+        "option3": "Carbon",
+        "option4": "Nitrogen"
+      },
+      "correctAnswer": "option3"
+        },
+        "q3": {
+          "id": 3,
+          "question": "Which acid is present in vinegar?",
+          "options": {
+            "option1": "Acetic acid",
+            "option2": "Citric acid",
+            "option3": "Lactic acid",
+            "option4": "Tartaric acid"
+          },
+          "correctAnswer": "option1"
+        }
+      },
+      {
+        "year": 2003,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "What is the chemical formula of ammonia?",
+      "options": {
+        "option1": "NH3",
+        "option2": "NH4",
+        "option3": "N2H3",
+        "option4": "N2H4"
+      },
+      "correctAnswer": "option1"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which element is liquid at room temperature?",
+      "options": {
+        "option1": "Mercury",
+        "option2": "Lead",
+        "option3": "Iron",
+        "option4": "Copper"
+      },
+      "correctAnswer": "option1"
+        },
+        "q3": {
+          "id": 3,
+          "question": "What is the main component of natural gas?",
+          "options": {
+            "option1": "Ethane",
+            "option2": "Methane",
+            "option3": "Propane",
+            "option4": "Butane"
+          },
+          "correctAnswer": "option2"
+        }
+      },
+      {
+        "year": 2004,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "What is the process of converting a liquid into a gas called?",
+          "options": {
+            "option1": "Condensation",
+            "option2": "Evaporation",
+            "option3": "Freezing",
+            "option4": "Sublimation"
+          },
+          "correctAnswer": "option2"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which gas is used in fire extinguishers?",
+      "options": {
+        "option1": "Carbon monoxide",
+        "option2": "Nitrogen",
+        "option3": "Carbon dioxide",
+        "option4": "Oxygen"
+      },
+      "correctAnswer": "option3"
+        },
+        "q3": {
+          "id": 3,
+          "question": "What is the chemical formula of ozone?",
+      "options": {
+        "option1": "O2",
+        "option2": "O3",
+        "option3": "O4",
+        "option4": "O"
+      },
+      "correctAnswer": "option2"
+        }
+      },
+      {
+        "year": 2005,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "What is the atomic number of hydrogen?",
+          "options": {
+            "option1": "1",
+            "option2": "2",
+            "option3": "3",
+            "option4": "4"
+          },
+          "correctAnswer": "option1"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which element is the most abundant in the Earth's crust?",
+      "options": {
+        "option1": "Oxygen",
+        "option2": "Silicon",
+        "option3": "Aluminium",
+        "option4": "Iron"
+      },
+      "correctAnswer": "option1"
+        },
+        "q3": {
+          "id": 3,
+          "question": "Which acid is used in car batteries?",
+      "options": {
+        "option1": "Sulfuric acid",
+        "option2": "Nitric acid",
+        "option3": "Hydrochloric acid",
+        "option4": "Phosphoric acid"
+      },
+      "correctAnswer": "option1"
+        }
+      },
+      {
+        "year": 2006,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "Which process is used to separate a mixture of liquids with different boiling points?",
+          "options": {
+            "option1": "Filtration",
+            "option2": "Distillation",
+            "option3": "Crystallization",
+            "option4": "Evaporation"
+          },
+          "correctAnswer": "option2"
+        },
+        "q2": {
+          "id": 2,
+          "question": "What is the main ore of aluminium?",
+          "options": {
+            "option1": "Hematite",
+            "option2": "Bauxite",
+            "option3": "Magnetite",
+            "option4": "Galena"
+          },
+          "correctAnswer": "option2"
+        },
+        "q3": {
+          "id": 3,
+          "question": "Which is the lightest metal?",
+          "options": {
+            "option1": "Lithium",
+            "option2": "Sodium",
+            "option3": "Potassium",
+            "option4": "Magnesium"
+          },
+          "correctAnswer": "option1"
+        }
+      },
+      {
+        "year": 2007,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "Which element has the highest electronegativity?",
+          "options": {
+            "option1": "Fluorine",
+            "option2": "Oxygen",
+            "option3": "Chlorine",
+            "option4": "Nitrogen"
+          },
+          "correctAnswer": "option1"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which is the most reactive non-metal?",
+          "options": {
+            "option1": "Fluorine",
+            "option2": "Chlorine",
+            "option3": "Bromine",
+            "option4": "Iodine"
+          },
+          "correctAnswer": "option1"
+        },
+        "q3": {
+          "id": 3,
+          "question": "What is the oxidation state of oxygen in water?",
+      "options": {
+        "option1": "-1",
+        "option2": "0",
+        "option3": "-2",
+        "option4": "+1"
+      },
+      "correctAnswer": "option3"
+        }
+      },
+      {
+        "year": 2008,
+        "shift": "evening",
+        "q1": {
+          "id": 1,
+          "question": "Which gas is evolved during photosynthesis?",
+          "options": {
+            "option1": "Oxygen",
+            "option2": "Carbon dioxide",
+            "option3": "Nitrogen",
+            "option4": "Hydrogen"
+          },
+          "correctAnswer": "option1"
+        },
+        "q2": {
+          "id": 2,
+          "question": "Which compound is commonly known as baking soda?",
+          "options": {
+            "option1": "Na2CO3",
+            "option2": "NaHCO3",
+            "option3": "K2CO3",
+            "option4": "KHCO3"
+          },
+          "correctAnswer": "option2"
+        },
+        "q3": {
+          "id": 3,
+        "question": "Which process is used to separate a mixture of liquids with different boiling points?",
+          "options": {
+            "option1": "Filtration",
+            "option2": "Distillation",
+            "option3": "Crystallization",
+            "option4": "Evaporation"
+          },
+          "correctAnswer": "option2"
+        }
+      }
+    ]
+  }
+  

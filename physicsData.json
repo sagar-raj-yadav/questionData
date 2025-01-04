@@ -1,0 +1,632 @@
+{
+  "questions": [
+    {
+      "year": 2000,
+      "shift": "morning",
+      "q1": {
+        "id": 1,
+        "question": "What is the unit of force?",
+        "options": {
+          "option1": "Newton",
+          "option2": "Joule",
+          "option3": "Pascal",
+          "option4": "Watt"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "Which of the following is a vector quantity?",
+        "options": {
+          "option1": "Speed",
+          "option2": "Distance",
+          "option3": "Velocity",
+          "option4": "Time"
+        },
+        "correctAnswer": "option3"
+      },
+      "q3": {
+        "id": 3,
+        "question": "What is the value of acceleration due to gravity on the surface of the Earth?",
+        "options": {
+          "option1": "9.8 m/s^2",
+          "option2": "10 m/s^2",
+          "option3": "11.2 m/s^2",
+          "option4": "9.0 m/s^2"
+        },
+        "correctAnswer": "option1"
+      }
+    },  
+    {
+      "year": 2001,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the formula for work done?",
+        "options": {
+          "option1": "W = F × d",
+          "option2": "W = m × g",
+          "option3": "W = F × v",
+          "option4": "W = P × t"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the force acting on a body at rest?",
+        "options": {
+          "option1": "Zero",
+          "option2": "Weight",
+          "option3": "Normal force",
+          "option4": "Friction"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following is the unit of momentum?",
+        "options": {
+          "option1": "Kg·m/s",
+          "option2": "Kg·m²/s",
+          "option3": "Kg",
+          "option4": "m/s"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2002,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the SI unit of magnetic field strength?",
+        "options": {
+          "option1": "Tesla",
+          "option2": "Ampere",
+          "option3": "Newton",
+          "option4": "Coulomb"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The potential energy of a body at height h is given by:",
+        "options": {
+          "option1": "mgh",
+          "option2": "gh",
+          "option3": "mgh^2",
+          "option4": "gh/m"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "In a convex lens, the focal length is positive, while in a concave lens, it is:",
+        "options": {
+          "option1": "Negative",
+          "option2": "Positive",
+          "option3": "Zero",
+          "option4": "Undefined"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2003,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the value of Planck's constant?",
+        "options": {
+          "option1": "6.626 x 10^-34 J·s",
+          "option2": "3.14 x 10^-34 J·s",
+          "option3": "9.81 x 10^-34 J·s",
+          "option4": "5.67 x 10^-34 J·s"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the value of Planck's constant?",
+        "options": {
+          "option1": "6.626 x 10^-34 J·s",
+          "option2": "3.14 x 10^-34 J·s",
+          "option3": "9.81 x 10^-34 J·s",
+          "option4": "5.67 x 10^-34 J·s"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "What is the value of Planck's constant?",
+        "options": {
+          "option1": "6.626 x 10^-34 J·s",
+          "option2": "3.14 x 10^-34 J·s",
+          "option3": "9.81 x 10^-34 J·s",
+          "option4": "5.67 x 10^-34 J·s"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2004,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "Which of the following is the unit of frequency?",
+        "options": {
+          "option1": "Hertz",
+          "option2": "Joule",
+          "option3": "Newton",
+          "option4": "Coulomb"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The angle of incidence is equal to the angle of reflection in:",
+        "options": {
+          "option1": "Reflection",
+          "option2": "Refraction",
+          "option3": "Diffraction",
+          "option4": "Polarization"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "What is the SI unit of power?",
+        "options": {
+          "option1": "Watt",
+          "option2": "Volt",
+          "option3": "Ampere",
+          "option4": "Ohm"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2005,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "Which of the following is the unit of resistance?",
+        "options": {
+          "option1": "Ohm",
+          "option2": "Watt",
+          "option3": "Volt",
+          "option4": "Ampere"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the phenomenon of bending of light around obstacles called?",
+        "options": {
+          "option1": "Diffraction",
+          "option2": "Reflection",
+          "option3": "Refraction",
+          "option4": "Absorption"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following does not obey Ohm's law?",
+        "options": {
+          "option1": "Superconductors",
+          "option2": "Resistors",
+          "option3": "Capacitors",
+          "option4": "Inductors"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2006,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "Which of the following particles are responsible for electricity flow in conductors?",
+        "options": {
+          "option1": "Electrons",
+          "option2": "Protons",
+          "option3": "Neutrons",
+          "option4": "Positrons"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The wavelength of light is measured in:",
+        "options": {
+          "option1": "Nanometers",
+          "option2": "Meters",
+          "option3": "Kilometers",
+          "option4": "Centimeters"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "In which type of wave, particles move perpendicular to the direction of wave propagation?",
+        "options": {
+          "option1": "Transverse wave",
+          "option2": "Longitudinal wave",
+          "option3": "Shock wave",
+          "option4": "Water wave"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2007,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the value of the gravitational constant?",
+        "options": {
+          "option1": "6.67 × 10^-11 N·m²/kg²",
+          "option2": "9.81 N·m/kg",
+          "option3": "3.14 × 10^-10 N·m²/kg²",
+          "option4": "1.23 × 10^-11 N·m²/kg²"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The time period of a simple pendulum depends on:",
+        "options": {
+          "option1": "Length of the pendulum",
+          "option2": "Mass of the pendulum",
+          "option3": "Angle of release",
+          "option4": "All of the above"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "What is the primary function of a lens in optical instruments?",
+        "options": {
+          "option1": "Focus light",
+          "option2": "Reflect light",
+          "option3": "Refract light",
+          "option4": "Deflect light"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2008,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "Which of the following is the SI unit of electric charge?",
+        "options": {
+          "option1": "Coulomb",
+          "option2": "Ampere",
+          "option3": "Volt",
+          "option4": "Ohm"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The concept of inertia is associated with which law of motion?",
+        "options": {
+          "option1": "Newton's First Law",
+          "option2": "Newton's Second Law",
+          "option3": "Newton's Third Law",
+          "option4": "Universal Law of Gravitation"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "The refraction of light occurs due to:",
+        "options": {
+          "option1": "Change in speed of light",
+          "option2": "Change in direction of light",
+          "option3": "Change in frequency of light",
+          "option4": "Change in color of light"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2009,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the relationship between frequency and wavelength?",
+        "options": {
+          "option1": "Frequency is inversely proportional to wavelength",
+          "option2": "Frequency is directly proportional to wavelength",
+          "option3": "Frequency and wavelength are unrelated",
+          "option4": "Frequency is constant"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "Which law explains the relationship between current, voltage, and resistance?",
+        "options": {
+          "option1": "Ohm's Law",
+          "option2": "Newton's Law",
+          "option3": "Hooke's Law",
+          "option4": "Coulomb's Law"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following is not an example of a non-contact force?",
+        "options": {
+          "option1": "Gravitational force",
+          "option2": "Magnetic force",
+          "option3": "Electrostatic force",
+          "option4": "Frictional force"
+        },
+        "correctAnswer": "option4"
+      }
+    },
+    {
+      "year": 2010,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "The concept of energy conservation is explained by which law?",
+        "options": {
+          "option1": "Law of Conservation of Energy",
+          "option2": "Newton's First Law",
+          "option3": "Hooke's Law",
+          "option4": "Coulomb's Law"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the force that opposes motion between two surfaces in contact?",
+        "options": {
+          "option1": "Friction",
+          "option2": "Gravity",
+          "option3": "Magnetism",
+          "option4": "Electrostatic Force"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following is the SI unit of pressure?",
+        "options": {
+          "option1": "Pascal",
+          "option2": "Joule",
+          "option3": "Newton",
+          "option4": "Ampere"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2011,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "Which of the following energy conversions takes place in a battery?",
+        "options": {
+          "option1": "Chemical to electrical",
+          "option2": "Electrical to chemical",
+          "option3": "Mechanical to electrical",
+          "option4": "Heat to mechanical"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the velocity of light in vacuum?",
+        "options": {
+          "option1": "3 x 10^8 m/s",
+          "option2": "3 x 10^6 m/s",
+          "option3": "2 x 10^8 m/s",
+          "option4": "2 x 10^6 m/s"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following is a vector quantity?",
+        "options": {
+          "option1": "Force",
+          "option2": "Speed",
+          "option3": "Energy",
+          "option4": "Temperature"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2012,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "The resistance of a conductor depends on its:",
+        "options": {
+          "option1": "Length and cross-sectional area",
+          "option2": "Temperature",
+          "option3": "Material",
+          "option4": "All of the above"
+        },
+        "correctAnswer": "option4"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The magnetic field is produced by:",
+        "options": {
+          "option1": "Electric current",
+          "option2": "Electrons in motion",
+          "option3": "Magnetic materials",
+          "option4": "All of the above"
+        },
+        "correctAnswer": "option4"
+      },
+      "q3": {
+        "id": 3,
+        "question": "In an AC circuit, the current changes direction:",
+        "options": {
+          "option1": "Periodically",
+          "option2": "Continuously",
+          "option3": "Once",
+          "option4": "Never"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2012,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "The work done to move a charge in an electric field is called:",
+        "options": {
+          "option1": "Electric potential energy",
+          "option2": "Electromotive force",
+          "option3": "Current",
+          "option4": "Magnetic potential energy"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "The speed of a wave is given by the product of:",
+        "options": {
+          "option1": "Wavelength and frequency",
+          "option2": "Amplitude and frequency",
+          "option3": "Wavelength and amplitude",
+          "option4": "Velocity and wavelength"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "In a nuclear reaction, the mass defect is converted to:",
+        "options": {
+          "option1": "Energy",
+          "option2": "Kinetic energy",
+          "option3": "Work",
+          "option4": "Sound energy"
+        },
+        "correctAnswer": "option1"
+      }
+    },
+    {
+      "year": 2013,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "The binding energy of a nucleus is:",
+        "options": {
+          "option1": "The energy required to break the nucleus",
+          "option2": "The energy released when the nucleus is formed",
+          "option3": "The energy due to atomic forces",
+          "option4": "The energy of the electrons in the nucleus"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the radius of the first orbit of the hydrogen atom according to Bohr's model?",
+        "options": {
+          "option1": "5.3 x 10^-11 m",
+          "option2": "3.3 x 10^-10 m",
+          "option3": "7.3 x 10^-11 m",
+          "option4": "1.6 x 10^-10 m"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "The resistance of a conductor depends on its:",
+        "options": {
+          "option1": "Length and cross-sectional area",
+          "option2": "Temperature",
+          "option3": "Material",
+          "option4": "All of the above"
+        },
+        "correctAnswer": "option4"
+      }
+    },
+    {
+      "year": 2014,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the unit of energy?",
+        "options": {
+          "option1": "Joule",
+          "option2": "Newton",
+          "option3": "Watt",
+          "option4": "Pascal"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "Which law is described by the equation F = ma?",
+        "options": {
+          "option1": "Newton's First Law",
+          "option2": "Newton's Second Law",
+          "option3": "Newton's Third Law",
+          "option4": "Law of Universal Gravitation"
+        },
+        "correctAnswer": "option2"
+      },
+      "q3": {
+        "id": 3,
+        "question": "What is the SI unit of power?",
+        "options": {
+          "option1": "Joule",
+          "option2": "Newton",
+          "option3": "Watt",
+          "option4": "Ampere"
+        },
+        "correctAnswer": "option3"
+      }
+    }, {
+      "year": 2015,
+      "shift": "evening",
+      "q1": {
+        "id": 1,
+        "question": "What is the unit of electric field?",
+        "options": {
+          "option1": "Newton per Coulomb",
+          "option2": "Joule per Coulomb",
+          "option3": "Volt per meter",
+          "option4": "Coulomb per meter"
+        },
+        "correctAnswer": "option1"
+      },
+      "q2": {
+        "id": 2,
+        "question": "What is the formula for energy stored in a capacitor?",
+        "options": {
+          "option1": "E = 1/2 CV^2",
+          "option2": "E = 1/2 C/V^2",
+          "option3": "E = C^2 V",
+          "option4": "E = CV"
+        },
+        "correctAnswer": "option1"
+      },
+      "q3": {
+        "id": 3,
+        "question": "Which of the following is a scalar quantity?",
+        "options": {
+          "option1": "Velocity",
+          "option2": "Acceleration",
+          "option3": "Speed",
+          "option4": "Force"
+        },
+        "correctAnswer": "option3"
+      }
+    }
+  ]
+}
