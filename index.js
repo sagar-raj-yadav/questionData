@@ -39,9 +39,10 @@ app.get('/chemistry/question', async (req, res) => {
 });
 
 
+//physics syllabus data
 app.get('/physicSyllabus', async (req, res) => {
   try {
-    const data = await getDataFromFile('chemistryData.json');
+    const data = await getDataFromFile('physicSyllabus.json');
     res.json(data);
   } catch (error) {
     res.status(500).send(error.message);
