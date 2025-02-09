@@ -1,0 +1,124 @@
+{
+  "PhysicalChemistry": {
+    "Unit1": {
+      "title": "Some Basic Concepts in Chemistry",
+      "topics": [
+        "Matter and its nature",
+        "Dalton's atomic theory",
+        "Concept of atom, molecule, element and compound",
+        "Laws of chemical combination",
+        "Atomic and molecular masses",
+        "Mole concept and molar mass",
+        "Percentage composition",
+        "Empirical and molecular formulae",
+        "Chemical equations and stoichiometry"
+      ]
+    },
+    "Unit2": {
+      "title": "Atomic Structure",
+      "topics": [
+        "Nature of electromagnetic radiation",
+        "Photoelectric effect",
+        "Spectrum of the hydrogen atom",
+        "Bohr model and its postulates",
+        "Energy of the electron and orbit radii",
+        "Limitations of Bohr's model",
+        "Dual nature of matter",
+        "de Broglie's relationship",
+        "Heisenberg uncertainty principle",
+        "Quantum mechanical model of the atom",
+        "Atomic orbitals and wave functions",
+        "Quantum numbers and their significance",
+        "Shapes of s, p, and d orbitals",
+        "Electron spin and spin quantum number",
+        "Aufbau principle, Pauli's exclusion principle, and Hund's rule",
+        "Electronic configuration of elements"
+      ]
+    },
+    "Unit3": {
+      "title": "Chemical Bonding and Molecular Structure",
+      "topics": [
+        "Kossel-Lewis approach to bonding",
+        "Ionic and covalent bond formation",
+        "Factors affecting ionic bonds",
+        "Lattice enthalpy calculation",
+        "Covalent bonding and electronegativity",
+        "Fajan’s rule and dipole moment",
+        "VSEPR theory and molecular shapes",
+        "Valence bond theory and hybridization",
+        "Resonance concept",
+        "Molecular orbital theory",
+        "Bond order, bond length, and bond energy",
+        "Metallic bonding and hydrogen bonding"
+      ]
+    },
+    "Unit4": {
+      "title": "Chemical Thermodynamics",
+      "topics": [
+        "System and surroundings",
+        "Extensive and intensive properties",
+        "Entropy and types of processes",
+        "First law of thermodynamics",
+        "Concepts of work, heat, internal energy, and enthalpy",
+        "Heat capacity and molar heat capacity",
+        "Hess’s law",
+        "Enthalpies of bond dissociation, combustion, formation, and phase transition",
+        "Second law of thermodynamics",
+        "Spontaneity of processes and Gibbs free energy",
+        "Equilibrium constant and ΔG"
+      ]
+    },
+    "Unit5": {
+      "title": "Solutions",
+      "topics": [
+        "Concentration expressions: molality, molarity, mole fraction, percentage",
+        "Vapour pressure and Raoult’s law",
+        "Ideal and non-ideal solutions",
+        "Colligative properties: vapour pressure lowering, boiling point elevation, freezing point depression, osmotic pressure",
+        "Molecular mass determination using colligative properties",
+        "Van’t Hoff factor and its significance"
+      ]
+    },
+    "Unit6": {
+      "title": "Equilibrium",
+      "topics": [
+        "Concept of dynamic equilibrium",
+        "Equilibrium in physical and chemical processes",
+        "Henry’s law",
+        "Law of chemical equilibrium",
+        "Equilibrium constants (Kp, Kc) and their significance",
+        "Le Chatelier’s principle",
+        "Ionic equilibrium",
+        "Acid-base concepts and ionization",
+        "pH scale, common ion effect, buffer solutions",
+        "Solubility product and hydrolysis of salts"
+      ]
+    },
+    "Unit7": {
+      "title": "Redox Reactions and Electrochemistry",
+      "topics": [
+        "Oxidation and reduction concepts",
+        "Oxidation number rules",
+        "Balancing redox reactions",
+        "Electrolytic and metallic conduction",
+        "Molar conductivities and their variations",
+        "Electrochemical cells: Galvanic and electrolytic cells",
+        "Electrode potentials and standard electrode potential",
+        "Nernst equation and applications",
+        "Dry cell, lead accumulator, and fuel cells"
+      ]
+    },
+    "Unit8": {
+      "title": "Chemical Kinetics",
+      "topics": [
+        "Reaction rate and factors affecting rate",
+        "Order and molecularity of reactions",
+        "Rate laws and rate constant",
+        "Zero and first-order reaction kinetics",
+        "Temperature effect and Arrhenius equation",
+        "Activation energy",
+        "Collision theory of bi-molecular reactions"
+      ]
+    }
+  }
+}
