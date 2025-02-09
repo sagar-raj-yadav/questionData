@@ -2,7 +2,7 @@
     "Mathematics": {
       "Unit 1": {
         "title": "Sets, Relations and Functions",
-        "Topics": [
+        "topics": [
           "Sets and their representation",
           "Union, intersection and complement of sets and their algebraic properties",
           "Power set",
@@ -12,7 +12,7 @@
       },
       "Unit 2": {
         "title": "Complex Numbers and Quadratic Equations",
-        "Topics": [
+        "topics": [
           "Complex numbers as ordered pairs of reals",
           "Representation of complex numbers in a plane, Argand diagram",
           "Algebra of complex numbers",
@@ -25,7 +25,7 @@
       },
       "Unit 3": {
         "title": "Matrices and Determinants",
-        "Topics": [
+        "topics": [
           "Matrices, algebra of matrices, types of matrices",
           "Determinants and matrices of order two and three",
           "Evaluation of determinants",
@@ -36,7 +36,7 @@
       },
       "Unit 4": {
         "title": "Permutations and Combinations",
-        "Topics": [
+        "topics": [
           "The fundamental principle of counting",
           "Permutations and combinations",
           "Meaning of P(n, r) and C(n, r)",
@@ -45,7 +45,7 @@
       },
       "Unit 5": {
         "title": "Binomial Theorem and Its Simple Applications",
-        "Topics": [
+        "topics": [
           "Binomial theorem for a positive integral index",
           "General term and middle term",
           "Simple applications"
@@ -53,7 +53,7 @@
       },
       "Unit 6": {
         "title": "Sequence and Series",
-        "Topics": [
+        "topics": [
           "Arithmetic and Geometric progressions",
           "Insertion of arithmetic and geometric means between two given numbers",
           "Relation between A.M and G.M"
@@ -61,7 +61,7 @@
       },
       "Unit 7": {
         "title": "Limit, Continuity and Differentiability",
-        "Topics": [
+        "topics": [
           "Real-valued functions, algebra of functions",
           "Polynomial, rational, trigonometric, logarithmic and exponential functions",
           "Inverse functions",
@@ -75,7 +75,7 @@
       },
       "Unit 8": {
         "title": "Integral Calculus",
-        "Topics": [
+        "topics": [
           "Integral as an anti-derivative",
           "Fundamental integrals involving algebraic, trigonometric, exponential and logarithmic functions",
           "Integration by substitution, by parts and by partial fractions",
@@ -89,7 +89,7 @@
       },
       "Unit 9": {
         "title": "Differential Equations",
-        "Topics": [
+        "topics": [
           "Ordinary differential equations, their order and degree",
           "Solution of differential equation by the method of separation of variables",
           "Solution of homogeneous and linear differential equations"
@@ -97,7 +97,7 @@
       },
       "Unit 10": {
         "title": "Coordinate Geometry",
-        "Topics": [
+        "topics": [
           "Cartesian system of rectangular coordinates in a plane",
           "Distance formula, section formula, locus and its equation",
           "Slope of a line, parallel and perpendicular lines",
@@ -116,7 +116,7 @@
       },
       "Unit 11": {
         "title": "Three-Dimensional Geometry",
-        "Topics": [
+        "topics": [
           "Coordinates of a point in space",
           "Distance between two points, section formula",
           "Direction ratios and direction cosines",
@@ -127,7 +127,7 @@
       },
       "Unit 12": {
         "title": "Vector Algebra",
-        "Topics": [
+        "topics": [
           "Vectors and scalars",
           "Addition of vectors",
           "Components of a vector in two and three-dimensional spaces",
@@ -148,7 +148,7 @@
       },
       "Unit 14": {
         "title": "Trigonometry",
-        "Topics": [
+        "topics": [
           "Trigonometric identities and functions",
           "Inverse trigonometric functions and their properties"
         ]
