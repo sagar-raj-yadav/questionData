@@ -1,157 +1,157 @@
 {
-  "Mathematics": {
-    "Unit 1": {
-      "Title": "Sets, Relations and Functions",
-      "Topics": [
-        "Sets and their representation",
-        "Union, intersection and complement of sets and their algebraic properties",
-        "Power set",
-        "Relations, type of relations, equivalence relations",
-        "Functions: one-one, into and onto functions, composition of functions"
-      ]
-    },
-    "Unit 2": {
-      "Title": "Complex Numbers and Quadratic Equations",
-      "Topics": [
-        "Complex numbers as ordered pairs of reals",
-        "Representation of complex numbers in a plane, Argand diagram",
-        "Algebra of complex numbers",
-        "Modulus and argument (or amplitude) of a complex number",
-        "Quadratic equations in real and complex number systems and their solutions",
-        "Relations between roots and coefficients",
-        "Nature of roots",
-        "Formation of quadratic equations with given roots"
-      ]
-    },
-    "Unit 3": {
-      "Title": "Matrices and Determinants",
-      "Topics": [
-        "Matrices, algebra of matrices, types of matrices",
-        "Determinants and matrices of order two and three",
-        "Evaluation of determinants",
-        "Area of triangles using determinants",
-        "Adjoint and inverse of a square matrix",
-        "Test of consistency and solution of simultaneous linear equations in two or three variables using matrices"
-      ]
-    },
-    "Unit 4": {
-      "Title": "Permutations and Combinations",
-      "Topics": [
-        "The fundamental principle of counting",
-        "Permutations and combinations",
-        "Meaning of P(n, r) and C(n, r)",
-        "Simple applications"
-      ]
-    },
-    "Unit 5": {
-      "Title": "Binomial Theorem and Its Simple Applications",
-      "Topics": [
-        "Binomial theorem for a positive integral index",
-        "General term and middle term",
-        "Simple applications"
-      ]
-    },
-    "Unit 6": {
-      "Title": "Sequence and Series",
-      "Topics": [
-        "Arithmetic and Geometric progressions",
-        "Insertion of arithmetic and geometric means between two given numbers",
-        "Relation between A.M and G.M"
-      ]
-    },
-    "Unit 7": {
-      "Title": "Limit, Continuity and Differentiability",
-      "Topics": [
-        "Real-valued functions, algebra of functions",
-        "Polynomial, rational, trigonometric, logarithmic and exponential functions",
-        "Inverse functions",
-        "Graphs of simple functions",
-        "Limits, continuity and differentiability",
-        "Differentiation of sum, difference, product and quotient of two functions",
-        "Differentiation of trigonometric, inverse trigonometric, logarithmic, exponential, composite and implicit functions",
-        "Derivatives of order up to two",
-        "Applications of derivatives: Rate of change, monotonicity, maxima and minima"
-      ]
-    },
-    "Unit 8": {
-      "Title": "Integral Calculus",
-      "Topics": [
-        "Integral as an anti-derivative",
-        "Fundamental integrals involving algebraic, trigonometric, exponential and logarithmic functions",
-        "Integration by substitution, by parts and by partial fractions",
-        "Integration using trigonometric identities",
-        "Evaluation of simple integrals",
-        "Fundamental theorem of calculus",
-        "Properties of definite integrals",
-        "Evaluation of definite integrals",
-        "Determining areas of regions bounded by simple curves"
-      ]
-    },
-    "Unit 9": {
-      "Title": "Differential Equations",
-      "Topics": [
-        "Ordinary differential equations, their order and degree",
-        "Solution of differential equation by the method of separation of variables",
-        "Solution of homogeneous and linear differential equations"
-      ]
-    },
-    "Unit 10": {
-      "Title": "Coordinate Geometry",
-      "Topics": [
-        "Cartesian system of rectangular coordinates in a plane",
-        "Distance formula, section formula, locus and its equation",
-        "Slope of a line, parallel and perpendicular lines",
-        "Intercepts of a line on coordinate axes",
-        "Various forms of equations of a line",
-        "Intersection of lines, angles between two lines",
-        "Conditions for concurrence of three lines",
-        "Distance of a point from a line",
-        "Coordinates of centroid, orthocentre, and circumcentre of a triangle",
-        "Standard form of equations of a circle",
-        "General form of the equation of a circle, radius and centre",
-        "Equation of a circle when endpoints of a diameter are given",
-        "Points of intersection of a line and a circle",
-        "Equations of conic sections: Parabola, ellipse, hyperbola"
-      ]
-    },
-    "Unit 11": {
-      "Title": "Three-Dimensional Geometry",
-      "Topics": [
-        "Coordinates of a point in space",
-        "Distance between two points, section formula",
-        "Direction ratios and direction cosines",
-        "Angle between two intersecting lines",
-        "Equation of a line",
-        "Skew lines, shortest distance between them and its equation"
-      ]
-    },
-    "Unit 12": {
-      "Title": "Vector Algebra",
-      "Topics": [
-        "Vectors and scalars",
-        "Addition of vectors",
-        "Components of a vector in two and three-dimensional spaces",
-        "Scalar and vector products"
-      ]
-    },
-    "Unit 13": {
-      "Title": "Statistics and Probability",
-      "Topics": [
-        "Measures of dispersion",
-        "Calculation of mean, median, mode for grouped and ungrouped data",
-        "Calculation of standard deviation, variance and mean deviation",
-        "Probability of an event",
-        "Addition and multiplication theorems of probability",
-        "Bayes' theorem",
-        "Probability distribution of a random variable"
-      ]
-    },
-    "Unit 14": {
-      "Title": "Trigonometry",
-      "Topics": [
-        "Trigonometric identities and functions",
-        "Inverse trigonometric functions and their properties"
-      ]
+    "Mathematics": {
+      "Unit 1": {
+        "title": "Sets, Relations and Functions",
+        "Topics": [
+          "Sets and their representation",
+          "Union, intersection and complement of sets and their algebraic properties",
+          "Power set",
+          "Relations, type of relations, equivalence relations",
+          "Functions: one-one, into and onto functions, composition of functions"
+        ]
+      },
+      "Unit 2": {
+        "title": "Complex Numbers and Quadratic Equations",
+        "Topics": [
+          "Complex numbers as ordered pairs of reals",
+          "Representation of complex numbers in a plane, Argand diagram",
+          "Algebra of complex numbers",
+          "Modulus and argument (or amplitude) of a complex number",
+          "Quadratic equations in real and complex number systems and their solutions",
+          "Relations between roots and coefficients",
+          "Nature of roots",
+          "Formation of quadratic equations with given roots"
+        ]
+      },
+      "Unit 3": {
+        "title": "Matrices and Determinants",
+        "Topics": [
+          "Matrices, algebra of matrices, types of matrices",
+          "Determinants and matrices of order two and three",
+          "Evaluation of determinants",
+          "Area of triangles using determinants",
+          "Adjoint and inverse of a square matrix",
+          "Test of consistency and solution of simultaneous linear equations in two or three variables using matrices"
+        ]
+      },
+      "Unit 4": {
+        "title": "Permutations and Combinations",
+        "Topics": [
+          "The fundamental principle of counting",
+          "Permutations and combinations",
+          "Meaning of P(n, r) and C(n, r)",
+          "Simple applications"
+        ]
+      },
+      "Unit 5": {
+        "title": "Binomial Theorem and Its Simple Applications",
+        "Topics": [
+          "Binomial theorem for a positive integral index",
+          "General term and middle term",
+          "Simple applications"
+        ]
+      },
+      "Unit 6": {
+        "title": "Sequence and Series",
+        "Topics": [
+          "Arithmetic and Geometric progressions",
+          "Insertion of arithmetic and geometric means between two given numbers",
+          "Relation between A.M and G.M"
+        ]
+      },
+      "Unit 7": {
+        "title": "Limit, Continuity and Differentiability",
+        "Topics": [
+          "Real-valued functions, algebra of functions",
+          "Polynomial, rational, trigonometric, logarithmic and exponential functions",
+          "Inverse functions",
+          "Graphs of simple functions",
+          "Limits, continuity and differentiability",
+          "Differentiation of sum, difference, product and quotient of two functions",
+          "Differentiation of trigonometric, inverse trigonometric, logarithmic, exponential, composite and implicit functions",
+          "Derivatives of order up to two",
+          "Applications of derivatives: Rate of change, monotonicity, maxima and minima"
+        ]
+      },
+      "Unit 8": {
+        "title": "Integral Calculus",
+        "Topics": [
+          "Integral as an anti-derivative",
+          "Fundamental integrals involving algebraic, trigonometric, exponential and logarithmic functions",
+          "Integration by substitution, by parts and by partial fractions",
+          "Integration using trigonometric identities",
+          "Evaluation of simple integrals",
+          "Fundamental theorem of calculus",
+          "Properties of definite integrals",
+          "Evaluation of definite integrals",
+          "Determining areas of regions bounded by simple curves"
+        ]
+      },
+      "Unit 9": {
+        "title": "Differential Equations",
+        "Topics": [
+          "Ordinary differential equations, their order and degree",
+          "Solution of differential equation by the method of separation of variables",
+          "Solution of homogeneous and linear differential equations"
+        ]
+      },
+      "Unit 10": {
+        "title": "Coordinate Geometry",
+        "Topics": [
+          "Cartesian system of rectangular coordinates in a plane",
+          "Distance formula, section formula, locus and its equation",
+          "Slope of a line, parallel and perpendicular lines",
+          "Intercepts of a line on coordinate axes",
+          "Various forms of equations of a line",
+          "Intersection of lines, angles between two lines",
+          "Conditions for concurrence of three lines",
+          "Distance of a point from a line",
+          "Coordinates of centroid, orthocentre, and circumcentre of a triangle",
+          "Standard form of equations of a circle",
+          "General form of the equation of a circle, radius and centre",
+          "Equation of a circle when endpoints of a diameter are given",
+          "Points of intersection of a line and a circle",
+          "Equations of conic sections: Parabola, ellipse, hyperbola"
+        ]
+      },
+      "Unit 11": {
+        "title": "Three-Dimensional Geometry",
+        "Topics": [
+          "Coordinates of a point in space",
+          "Distance between two points, section formula",
+          "Direction ratios and direction cosines",
+          "Angle between two intersecting lines",
+          "Equation of a line",
+          "Skew lines, shortest distance between them and its equation"
+        ]
+      },
+      "Unit 12": {
+        "title": "Vector Algebra",
+        "Topics": [
+          "Vectors and scalars",
+          "Addition of vectors",
+          "Components of a vector in two and three-dimensional spaces",
+          "Scalar and vector products"
+        ]
+      },
+      "Unit 13": {
+        "title": "Statistics and Probability",
+        "topics": [
+          "Measures of dispersion",
+          "Calculation of mean, median, mode for grouped and ungrouped data",
+          "Calculation of standard deviation, variance and mean deviation",
+          "Probability of an event",
+          "Addition and multiplication theorems of probability",
+          "Bayes' theorem",
+          "Probability distribution of a random variable"
+        ]
+      },
+      "Unit 14": {
+        "title": "Trigonometry",
+        "Topics": [
+          "Trigonometric identities and functions",
+          "Inverse trigonometric functions and their properties"
+        ]
+      }
     }
   }
-}
