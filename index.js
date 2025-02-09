@@ -49,6 +49,16 @@ app.get('/physicSyllabus', async (req, res) => {
   }
 });
 
+//chemistry syllabus data
+app.get('/chemistrySyllabus', async (req, res) => {
+  try {
+    const data = await getDataFromFile('chemistrySyllabus.json');
+    res.json(data);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+
 // Root route
 app.get('/', (req, res) => {
   res.send('This is previous year question api data');
