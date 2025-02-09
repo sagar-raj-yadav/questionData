@@ -61,7 +61,7 @@ app.get('/chemistrySyllabus', async (req, res) => {
 
 
 //mathematics syllabus data
-app.get('/chemistrySyllabus', async (req, res) => {
+app.get('/mathSyllabus', async (req, res) => {
   try {
     const data = await getDataFromFile('mathSyllabus.json');
     res.json(data);
