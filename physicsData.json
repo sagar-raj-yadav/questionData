@@ -1,8 +1,8 @@
-{
-  "questions": [
+[
     {
       "year": 2000,
       "shift": "morning",
+      "date": "2023-02-01",
       "q1": {
         "id": 1,
         "question": "What is the unit of force?",
@@ -40,6 +40,7 @@
     {
       "year": 2001,
       "shift": "evening",
+      "date": "2022-02-10",
       "q1": {
         "id": 1,
         "question": "What is the formula for work done?",
@@ -77,6 +78,7 @@
     {
       "year": 2002,
       "shift": "evening",
+      "date": "2002-04-15",
       "q1": {
         "id": 1,
         "question": "What is the SI unit of magnetic field strength?",
@@ -114,6 +116,7 @@
     {
       "year": 2003,
       "shift": "evening",
+      "date": "2004-05-16",
       "q1": {
         "id": 1,
         "question": "What is the value of Planck's constant?",
@@ -151,6 +154,7 @@
     {
       "year": 2004,
       "shift": "evening",
+      "date": "2005-06-18",
       "q1": {
         "id": 1,
         "question": "Which of the following is the unit of frequency?",
@@ -188,6 +192,7 @@
     {
       "year": 2005,
       "shift": "evening",
+      "date": "2007-08-18",
       "q1": {
         "id": 1,
         "question": "Which of the following is the unit of resistance?",
@@ -225,6 +230,7 @@
     {
       "year": 2006,
       "shift": "evening",
+      "date": "2009-09-20",
       "q1": {
         "id": 1,
         "question": "Which of the following particles are responsible for electricity flow in conductors?",
@@ -262,6 +268,7 @@
     {
       "year": 2007,
       "shift": "evening",
+      "date": "2011-10-04",
       "q1": {
         "id": 1,
         "question": "What is the value of the gravitational constant?",
@@ -299,6 +306,7 @@
     {
       "year": 2008,
       "shift": "evening",
+      "date": "2012-02-06",
       "q1": {
         "id": 1,
         "question": "Which of the following is the SI unit of electric charge?",
@@ -336,6 +344,7 @@
     {
       "year": 2009,
       "shift": "evening",
+      "date": "2013-03-14",
       "q1": {
         "id": 1,
         "question": "What is the relationship between frequency and wavelength?",
@@ -373,6 +382,7 @@
     {
       "year": 2010,
       "shift": "evening",
+      "date": "2015-02-12",
       "q1": {
         "id": 1,
         "question": "The concept of energy conservation is explained by which law?",
@@ -410,6 +420,7 @@
     {
       "year": 2011,
       "shift": "evening",
+      "date": "2018-02-01",
       "q1": {
         "id": 1,
         "question": "Which of the following energy conversions takes place in a battery?",
@@ -447,6 +458,7 @@
     {
       "year": 2012,
       "shift": "evening",
+      "date": "2019-05-01",
       "q1": {
         "id": 1,
         "question": "The resistance of a conductor depends on its:",
@@ -484,6 +496,7 @@
     {
       "year": 2012,
       "shift": "evening",
+      "date": "2020-09-01",
       "q1": {
         "id": 1,
         "question": "The work done to move a charge in an electric field is called:",
@@ -521,6 +534,7 @@
     {
       "year": 2013,
       "shift": "evening",
+      "date": "2021-12-01",
       "q1": {
         "id": 1,
         "question": "The binding energy of a nucleus is:",
@@ -558,6 +572,7 @@
     {
       "year": 2014,
       "shift": "evening",
+      "date": "2022-11-01",
       "q1": {
         "id": 1,
         "question": "What is the unit of energy?",
@@ -594,6 +609,7 @@
     }, {
       "year": 2015,
       "shift": "evening",
+      "date": "2025-02-10",
       "q1": {
         "id": 1,
         "question": "What is the unit of electric field?",
@@ -628,5 +644,4 @@
         "correctAnswer": "option3"
       }
     }
-  ]
-}
+]
