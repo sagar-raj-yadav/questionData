@@ -18,11 +18,18 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
-// Endpoint for physics data
-app.get('/physics/question', async (req, res) => {
+// Fetch specific question by ID
+app.get('/physics/question/:id', async (req, res) => {
   try {
     const data = await getDataFromFile('physicsData.json');
-    res.json(data);
+    const questionId = parseInt(req.params.id); // Convert id to number
+
+    const question = data.find(q => q.id === questionId);
+    if (!question) {
+      return res.status(404).json({ error: "Question not found" });
+    }
+
+    res.json(question);
   } catch (error) {
     res.status(500).send(error.message);
   }
