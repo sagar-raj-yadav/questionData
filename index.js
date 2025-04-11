@@ -23,10 +23,11 @@ app.get('/allbusdata', async (req, res) => {
 
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
-
+  const filteredData = data.filter(
+  bus => bus.source_city === from && bus.destination_city === to
+);
+res.json(filteredData);
     
-
-    res.json(data);
   } catch (error) {
     res.status(500).send(error.message);
   }
