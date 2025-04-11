@@ -18,20 +18,24 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
+//all bus data
 app.get('/allbusdata', async (req, res) => {
-  const { to, from } = req.params;
+  const { to, from } = req.query;
 
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
-  const filteredData = data.filter(
-  bus => bus.source_city === from && bus.destination_city === to
-);
-res.json(filteredData);
-    
+
+    const filteredData = data.filter(bus =>
+      bus.source_city.trim().toLowerCase() === from?.trim().toLowerCase() &&
+      bus.destination_city.trim().toLowerCase() === to?.trim().toLowerCase()
+    );
+
+    res.json(filteredData);
   } catch (error) {
     res.status(500).send(error.message);
   }
 });
+
 
 
 
