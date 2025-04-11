@@ -18,7 +18,7 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
-app.get('allbusdata', async (req, res) => {
+app.get('/allbusdata', async (req, res) => {
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
     res.json(data);
