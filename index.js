@@ -18,7 +18,7 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
-app.get('/allbusdata/:to/:from', async (req, res) => {
+app.get('/allbusdata', async (req, res) => {
   const { to, from } = req.params;
 
   try {
