@@ -18,6 +18,16 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
+app.get('allbusdata', async (req, res) => {
+  try {
+    const data = await getDataFromFile('NEW_BUS_DATA.json');
+    res.json(data);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+
+
 // Fetch specific question by ID
 app.get('/physics/question/:id', async (req, res) => {
   try {
