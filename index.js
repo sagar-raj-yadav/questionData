@@ -18,14 +18,24 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
-app.get('/allbusdata', async (req, res) => {
+app.get('/allbusdata/:to/:from', async (req, res) => {
+  const { to, from } = req.params;
+
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
-    res.json(data);
+
+    // filter data by to & from
+    const filtered = data.filter(bus =>
+      bus.source_city.toLowerCase() === from.toLowerCase() &&
+      bus.destination_city.toLowerCase() === to.toLowerCase()
+    );
+
+    res.json(filtered);
   } catch (error) {
     res.status(500).send(error.message);
   }
 });
+
 
 
 // Fetch specific question by ID
