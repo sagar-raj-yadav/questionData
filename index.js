@@ -27,26 +27,22 @@ const getDataFromFile = async (fileName) => {
 
 //all bus data
 app.get('/allbusdata', async (req, res) => {
-  const { to, from } = req.query;
-
-  // Basic validation
-  if (!to || !from) {
-    return res.status(400).json({ error: "Missing 'to' or 'from' query parameters" });
-  }
+  const { to = '', from = '' } = req.query;
 
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
 
-    // Ensure 'data' is an array
     if (!Array.isArray(data)) {
       return res.status(500).json({ error: "Invalid data format" });
     }
 
-    // Filter data by source and destination city
+    // If both are empty, return empty or full list
+    if (!to && !from) return res.json([]);
+
     const filteredData = data.filter(bus =>
-      bus.source_city.trim().toLowerCase() === from.toString().trim().toLowerCase() &&
-      bus.destination_city.trim().toLowerCase() === to.toString().trim().toLowerCase()
-    );
+      (from ? bus.source_city.toLowerCase().includes(from.toLowerCase()) : true) &&
+      (to ? bus.destination_city.toLowerCase().includes(to.toLowerCase()) : true)
+    ).slice(0, 5); // Return only top 5 results
 
     res.json(filteredData);
   } catch (error) {
@@ -54,6 +50,7 @@ app.get('/allbusdata', async (req, res) => {
     res.status(500).send("Server error: " + error.message);
   }
 });
+
 
 
 
