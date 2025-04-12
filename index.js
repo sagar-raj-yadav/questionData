@@ -7,6 +7,13 @@ const port = process.env.PORT || 5000;
 
 // Apply CORS middleware to allow all origins
 app.use(cors());
+// Ensure CORS header is always set
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*"); // Or use your frontend URL instead of "*"
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 
 // Function to read data from a file
 const getDataFromFile = async (fileName) => {
