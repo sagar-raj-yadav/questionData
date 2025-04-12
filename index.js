@@ -22,17 +22,29 @@ const getDataFromFile = async (fileName) => {
 app.get('/allbusdata', async (req, res) => {
   const { to, from } = req.query;
 
+  // Basic validation
+  if (!to || !from) {
+    return res.status(400).json({ error: "Missing 'to' or 'from' query parameters" });
+  }
+
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
 
+    // Ensure 'data' is an array
+    if (!Array.isArray(data)) {
+      return res.status(500).json({ error: "Invalid data format" });
+    }
+
+    // Filter data by source and destination city
     const filteredData = data.filter(bus =>
-      bus.source_city.trim().toLowerCase() === from?.trim().toLowerCase() &&
-      bus.destination_city.trim().toLowerCase() === to?.trim().toLowerCase()
+      bus.source_city.trim().toLowerCase() === from.toString().trim().toLowerCase() &&
+      bus.destination_city.trim().toLowerCase() === to.toString().trim().toLowerCase()
     );
 
     res.json(filteredData);
   } catch (error) {
-    res.status(500).send(error.message);
+    console.error("Error fetching bus data:", error.message);
+    res.status(500).send("Server error: " + error.message);
   }
 });
 
