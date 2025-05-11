@@ -25,9 +25,9 @@ const getDataFromFile = async (fileName) => {
   }
 };
 
-//all bus data
+
 app.get('/allbusdata', async (req, res) => {
-  const { to , from  } = req.query;
+  const { to, from, minrange, maxrange, type, rating, departure_time } = req.query;
 
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
@@ -36,15 +36,47 @@ app.get('/allbusdata', async (req, res) => {
       return res.status(500).json({ error: "Invalid data format" });
     }
 
-    // If both are empty, return empty or full list
-    if (!to && !from) return res.json([]);
+    // If both 'from' and 'to' are empty, return the top 5 buses from the data
+    if (!to && !from) {
+      return res.json(data.slice(0, 5)); // Return only the top 5 buses if no filters are applied
+    }
 
-    const filteredData = data.filter(bus =>
-      (from ? bus.source_city.toLowerCase().includes(from.toLowerCase()) : true) &&
-      (to ? bus.destination_city.toLowerCase().includes(to.toLowerCase()) : true)
-    ).slice(0, 5); // Return only top 5 results
+    // Apply filters for from, to, and additional criteria like minrange, maxrange, etc.
+    const filteredData = data.filter(bus => {
+      let isValid = true;
 
-    res.json(filteredData);
+      // Filter by source city (from) and destination city (to)
+      if (from) {
+        isValid = isValid && bus.source_city.toLowerCase().includes(from.toLowerCase());
+      }
+      if (to) {
+        isValid = isValid && bus.destination_city.toLowerCase().includes(to.toLowerCase());
+      }
+
+      // Apply filters for price range
+      if (minrange && bus.price < minrange) isValid = false;
+      if (maxrange && bus.price > maxrange) isValid = false;
+
+      // Filter by bus type
+      if (type && bus.type.toLowerCase() !== type.toLowerCase()) isValid = false;
+
+      // Filter by rating
+      if (rating && bus.star < rating) isValid = false;
+
+      // Filter by departure time if specified
+      if (departure_time && bus.start_time !== departure_time) isValid = false;
+
+      return isValid;
+    });
+
+    // If no data matches the criteria, return an empty array
+    if (filteredData.length === 0) {
+      return res.json([]);
+    }
+
+    // Return only the top 5 filtered results
+    res.json(filteredData.slice(0, 5));
+
   } catch (error) {
     console.error("Error fetching bus data:", error.message);
     res.status(500).send("Server error: " + error.message);
@@ -53,24 +85,6 @@ app.get('/allbusdata', async (req, res) => {
 
 
 
-
-
-// Fetch specific question by ID
-app.get('/physics/question/:id', async (req, res) => {
-  try {
-    const data = await getDataFromFile('physicsData.json');
-    const questionId = parseInt(req.params.id); // Convert id to number
-
-    const question = data.find(q => q.id === questionId);
-    if (!question) {
-      return res.status(404).json({ error: "Question not found" });
-    }
-
-    res.json(question);
-  } catch (error) {
-    res.status(500).send(error.message);
-  }
-});
 
 // Endpoint for chemistry data
 app.get('/chemistry/question', async (req, res) => {
