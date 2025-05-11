@@ -26,8 +26,17 @@ const getDataFromFile = async (fileName) => {
 };
 
 
+
 app.get('/allbusdata', async (req, res) => {
-  const { to, from, minrange, maxrange, type, rating, departure_time } = req.query;
+  const {
+    to,
+    from,
+    minrange,
+    maxrange,
+    type,
+    rating,
+    departure_time
+  } = req.query;
 
   try {
     const data = await getDataFromFile('NEW_BUS_DATA.json');
@@ -36,16 +45,20 @@ app.get('/allbusdata', async (req, res) => {
       return res.status(500).json({ error: "Invalid data format" });
     }
 
-    // If both 'from' and 'to' are empty, return the top 5 buses from the data
+    // Convert query params to appropriate types
+    const min = parseFloat(minrange);
+    const max = parseFloat(maxrange);
+    const minRating = parseFloat(rating);
+
+    // If both 'from' and 'to' are missing, return top 5 buses
     if (!to && !from) {
-      return res.json(data.slice(0, 5)); // Return only the top 5 buses if no filters are applied
+      return res.json(data.slice(0, 5));
     }
 
-    // Apply filters for from, to, and additional criteria like minrange, maxrange, etc.
     const filteredData = data.filter(bus => {
       let isValid = true;
 
-      // Filter by source city (from) and destination city (to)
+      // Filter by cities
       if (from) {
         isValid = isValid && bus.source_city.toLowerCase().includes(from.toLowerCase());
       }
@@ -53,35 +66,30 @@ app.get('/allbusdata', async (req, res) => {
         isValid = isValid && bus.destination_city.toLowerCase().includes(to.toLowerCase());
       }
 
-      // Apply filters for price range
-      if (minrange && bus.price < minrange) isValid = false;
-      if (maxrange && bus.price > maxrange) isValid = false;
+      // Filter by price range
+      if (!isNaN(min) && bus.price < min) isValid = false;
+      if (!isNaN(max) && bus.price > max) isValid = false;
 
       // Filter by bus type
       if (type && bus.type.toLowerCase() !== type.toLowerCase()) isValid = false;
 
       // Filter by rating
-      if (rating && bus.star < rating) isValid = false;
+      if (!isNaN(minRating) && bus.star < minRating) isValid = false;
 
-      // Filter by departure time if specified
+      // Filter by departure time
       if (departure_time && bus.start_time !== departure_time) isValid = false;
 
       return isValid;
     });
 
-    // If no data matches the criteria, return an empty array
-    if (filteredData.length === 0) {
-      return res.json([]);
-    }
-
-    // Return only the top 5 filtered results
-    res.json(filteredData.slice(0, 5));
+    res.json(filteredData.slice(0, 5)); // Return top 5 matched buses
 
   } catch (error) {
     console.error("Error fetching bus data:", error.message);
     res.status(500).send("Server error: " + error.message);
   }
 });
+
 
 
 
