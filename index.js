@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import cors from 'cors'; // Import the cors package
 
 const app = express();
-const port =  5000;
+const port = process.env.PORT ||  5000;
 
 // Apply CORS middleware to allow all origins
 app.use(cors());
